@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -30,7 +30,6 @@ export default function LandingPage() {
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/tmp/refreshing-beverage-glass-ice-cold-drink-1764682683115-39b79a3f.jpg"
-          logoAlt="Brand Logo"
           brandName="RefreshBrand"
           button={{
             text: "Explore Now",
@@ -185,7 +184,7 @@ export default function LandingPage() {
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/tmp/beverage-distributor-logo-partnership-1764682733643-9032a6b0.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/tmp/organic-market-logo-partnership-1764682735221-e4bc71e0.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/tmp/health-store-logo-partnership-1764682736771-a3009e5b.jpg"
-          ]
+          ]}
           textboxLayout="default"
           speed={40}
           showCard={true}
@@ -235,7 +234,7 @@ export default function LandingPage() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/tmp/confident-person-portrait-studio-photo-1764682722190-c14b2be7.jpg",
               imageAlt: "David Kim"
             }
-          ]
+          ]}
           textboxLayout="default"
         />
       </div>
@@ -346,7 +345,7 @@ export default function LandingPage() {
                 }
               ]
             }
-          ]
+          ]}
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/tmp/refreshing-beverage-glass-ice-cold-drink-1764682683115-39b79a3f.jpg"
           logoWidth={40}
           logoHeight={40}
